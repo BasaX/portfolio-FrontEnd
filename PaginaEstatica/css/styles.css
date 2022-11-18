@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: 'Cormorant', serif; */
+  font-family: "gilroylight", serif;
+  /*color: rgb(0, 0, 0) !important;*/
+}
+
+/**************************/
+
+/****MENU DE NAVEGACION****/
+
+/**************************/
+
+.bcd_navbar {
+  background-color: rgba(47, 47, 47, 0.7) !important;
+  font-family: "akrobatregular", serif;
+  color: white !important;
+}
+
+.bcd_navbar div,
+.bcd_navbar ul {
+  background-color: transparent !important;
+  font-family: "gilroylight", serif;
+}
+
+.bcd_navbar a {
+  color: white !important;
+}
+
+.bcd_navbar a:hover {
+  color: white !important;
+  background-color: rgba(161, 161, 161, 0.7) !important;
+  text-decoration: none !important;
+  text-shadow: none !important;
+  text-transform: none !important;
+  border-color: white !important;
+  border-style: none !important;
+  border-width: 2px !important;
+}
+
+.navbar-toggler {
+  color: white !important;
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  border-color: white !important;
+}
+
+.navbar-toggler:active {
+  color: white !important;
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  border-color: white !important;
+}
+/***************************/
+
+/*BANNER PRINCIPAL - INDEX*/
+
+/***************************/
+
+.bcd_cont_banner_link {
+  font-family: "harabara_maisharabara_mais", serif;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.bcd_cont_banner h1 {
+  font-family: "harabara_maisharabaramaisltit", serif;
+}
+
+.bcd_cont_banner p {
+  font-family: "harabara_maisharabara_mais", serif;
+}
+
+.bcd_cont_sec_1 {
+  padding: 10%;
+}
+
+.bcd_cont_sec_1_link {
+  padding: 5%;
+}
+
+.bcd_cont_sec_1_link a {
+  width: 200px;
+  font-family: "sheenline_scriptregular", serif;
+  font-size: 30px;
+}
+
+.bcd_cont_sec_1 hr {
+  border-top: 1px solid rgba(1, 1, 1, 0.3);
+}
+
+.bcd_cont_sec_2_links a {
+  color: rgba(1, 71, 30, 0.897);
+  font-size: 20px;
+  /* width: 100%; */
+}
+
+.bcd_cont_sec_2_gif {
+  /* -webkit-user-select: none; */
+  margin: auto;
+  background-color: hsl(0, 0%, 100%);
+  transition: background-color 1000ms;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* PopUp actual */
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Flecha Popup */
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle - muestra u oculta el Popup */
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+.popup2 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* PopUp actual */
+
+.popup2 .popuptext2 {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Flecha Popup */
+
+.popup2 .popuptext2::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle - muestra u oculta el Popup */
+
+.popup2 .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+.bcd_cont_sec_4 h3 {
+  padding-top: 3%;
+}
+
+.bcd_cont_sec_4 p {
+  padding-bottom: 5%;
+}
+
+.bcd_cont_footer {
+  background-color: rgba(1, 1, 1, 0.7);
+  padding: 10%;
+  color: #fff;
+  margin-top: 100px;
+}
+
+.bcd_cont_footer a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+.bcd_cont_firma {
+  padding-top: 15%;
+}
+
+.bcd_cont_nov_1 {
+  padding: 10%;
+}
+
+.bcd_imagen_cont_nov_1 {
+  padding-top: 5%;
+  width: 96%;
+  max-width: 200px;
+  margin: 0 auto;
+}
